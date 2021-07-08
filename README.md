@@ -55,6 +55,7 @@ except (ConnectionResetError, socket.timeout, OSError)  as e:
 1. Create a cloud development project <a href="https://iot.tuya.com/cloud" target="_blanck">Cloud -> Project</a>.
 2. After successful creation, you will receive the **Client ID** and **Secret Key**.
 
+![cloud project](https://user-images.githubusercontent.com/87131635/124926339-0a829180-e01b-11eb-887c-d79b2018f5a4.PNG)
 
 #### Step 2: DEVICE_ID
 1. Install **Tuya Smart** app or **Smart Life** app on your mobile phone.
@@ -64,9 +65,13 @@ except (ConnectionResetError, socket.timeout, OSError)  as e:
 5. Now you can go to devices <a href="https://iot.tuya.com/cloud/appinfo/cappId/deviceList" target="_blanck">Cloud -> Device List</a> and copy **Device ID**.
     * Notes: Try to select a your region if devices are not displayed.
 
+![client id, key](https://user-images.githubusercontent.com/87131635/124926387-18d0ad80-e01b-11eb-8b23-c41ccf96f799.PNG)
 
 #### Step 3: Request access to API calls
 Go to <a href="https://iot.tuya.com/cloud/appinfo/cappId/setting" target="_blanck">Cloud -> API Group</a> and enable **Authorization management**, **Device Management** and **Device Control**.
+
+![cloud api](https://user-images.githubusercontent.com/87131635/124926553-4a497900-e01b-11eb-8a95-aa7ec9ba504e.PNG)
+
 
 <br>
 <h3>Info:</h3>
